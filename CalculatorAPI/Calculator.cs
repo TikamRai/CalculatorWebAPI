@@ -42,7 +42,7 @@ namespace MyApp.Namespace
         {  
            decimal remainder = num1 % num2;
             return remainder;
-      }
+        }
 
-}
+    }
 }
