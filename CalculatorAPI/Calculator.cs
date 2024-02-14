@@ -25,18 +25,21 @@ namespace MyApp.Namespace
            decimal difference = num1 - num2;
             return difference;
         }
+        
         [HttpGet]
         public decimal Multiply(decimal num1, decimal num2)
         {  
            decimal product = num1 * num2;
             return product;
         }
+        
         [HttpGet]
         public decimal Divide(decimal num1, decimal num2)
         {  
            decimal quotient = num1 / num2;
             return quotient;
         }
+        
         [HttpGet]
         public decimal Modulo(decimal num1, decimal num2)
         {  
